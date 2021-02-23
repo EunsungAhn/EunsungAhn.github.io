@@ -1,6 +1,6 @@
 ---
 title: Chapter 1. 유한체
-date: 2021-02-19 00:00:00 +07:00
+date: 2021-02-22 01:00:00 +07:00
 tags: [python, bitcoin, blockchain]
 description: Started to study bitcoin
 ---
@@ -115,8 +115,7 @@ description: Started to study bitcoin
 &nbsp;&nbsp;&nbsp; {k ⋅<sub>f</sub> 0, k ⋅<sub>f</sub> 1, k ⋅<sub>f</sub> 2, k ⋅<sub>f</sub> 3, ..., k ⋅<sub>f</sub> 18}
 
 <figure>
-<img src="/programming-bitcoin/practice-1-5.png" alt="practice 1.5 output">
-<figcaption>연습문제 1.5 출력값</figcaption>
+<img src="/programming-bitcoin-1/practice-1-5.png" alt="practice 1.5 output" width="90%" height="90%">
 </figure>
 
 [연습문제 1.5]를 풀어보면 모두 같은 집합이라는 것을 확인할 수 있다. 유한체에 0이 아닌 임의의 원소 k로 전체 집합을 곱할 때 그 결과는 다시 원래 집합이 되는 것이다.
