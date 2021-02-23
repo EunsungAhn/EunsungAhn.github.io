@@ -139,8 +139,8 @@
   h6 {
     color: $black;
     font-weight: $bold-weight;
-    margin-top: $spacing-full;
-    margin-bottom: 0;
+    margin-top: $spacing-full + 20;
+    margin-bottom: 5;
 
     &:hover {
       .anchor-head {
