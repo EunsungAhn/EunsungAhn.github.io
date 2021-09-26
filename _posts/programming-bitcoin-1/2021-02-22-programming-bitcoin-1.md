@@ -24,7 +24,7 @@ description: Started to study bitcoin
 &nbsp;&nbsp;&nbsp; <em>F</em><sub>p</sub> = {0, 1, 2, ... , p-1}
 
 <em>F</em><sub>p</sub>는 위수 p의 유한체라고 읽는 특정 유한체이다.(여기서 p는 집합의 위수로 집합 안의 원소 개수이다).
-      
+
 예를 들어, 위수 11의 유한체는 다음과 같다.
 
 &nbsp;&nbsp;&nbsp; <em>F</em><sub>11</sub> = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10}
@@ -78,8 +78,8 @@ description: Started to study bitcoin
 
 유한체에서의 나눗셈 역시 결과값이 유한체에 속해야 한다. 그러나 유한체에서의 나눗셈은 일반 수학 상식에서의 나눗셈과 다소 다르다. <em>F</em><sub>19</sub>에서의 예를 통해 알아보자.
 
-&nbsp;&nbsp;&nbsp; 3 ⋅<sub>f</sub> 7 = 21 % 19  = 2로부터 2 /<sub>f</sub> 7 = 3이라는 등식이 성립한다.<br>
-&nbsp;&nbsp;&nbsp; 9 ⋅<sub>f</sub> 5 = 45 % 19  = 7로부터 7 /<sub>f</sub> 5 = 9이라는 등식이 성립한다.
+&nbsp;&nbsp;&nbsp; 3 ⋅<sub>f</sub> 7 = 21 % 19 = 2로부터 2 /<sub>f</sub> 7 = 3이라는 등식이 성립한다.<br>
+&nbsp;&nbsp;&nbsp; 9 ⋅<sub>f</sub> 5 = 45 % 19 = 7로부터 7 /<sub>f</sub> 5 = 9이라는 등식이 성립한다.
 
 여기서 의문이 드는 사항은 3 ⋅<sub>f</sub> 7 = 2를 모르는 상황에서 어떻게 2 /<sub>f</sub>7를 계산하는가 이다. 나눗셈은 곱셈의 역연산이므로 위와 같은 상황을 다음과 같이 일반화하여 나타낼 수 있다.
 
@@ -115,7 +115,7 @@ description: Started to study bitcoin
 &nbsp;&nbsp;&nbsp; {k ⋅<sub>f</sub> 0, k ⋅<sub>f</sub> 1, k ⋅<sub>f</sub> 2, k ⋅<sub>f</sub> 3, ..., k ⋅<sub>f</sub> 18}
 
 <figure>
-<img src="/programming-bitcoin-1/practice-1-5.png" alt="practice 1.5 output" width="90%" height="90%">
+<img src="./practice-1-5.png" alt="practice 1.5 output" width="90%" height="90%">
 </figure>
 
 [연습문제 1.5]를 풀어보면 모두 같은 집합이라는 것을 확인할 수 있다. 유한체에 0이 아닌 임의의 원소 k로 전체 집합을 곱할 때 그 결과는 다시 원래 집합이 되는 것이다.
